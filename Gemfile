@@ -39,5 +39,6 @@ gem 'spring',        group: :development
 # gem 'debugger', group: [:development, :test]
 gem 'bourbon'
 gem 'neat'
+gem 'normalize-rails'
 gem 'rails_12factor', group: :production
 ruby "2.1.1"

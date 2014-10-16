@@ -1,4 +1,4 @@
-@mixin background-opacity($color, $opacity: 0.3) {
+@mixin background-opacity($color, $opacity) {
     background: $color;
     background: rgba($color, $opacity);
 }
@@ -9,17 +9,20 @@ div.skyline-page {
 	@include background-size(cover);
 
 	.sky-body {
-		@include span-columns(4);
+		@include span-columns(8);
 		@include shift(2);
-		p {
-			width: 390px;
-			height: 210px;
-			margin: 35px 0 90% 0;
+		h1 {
+			margin: 35px 0 75% 0;
 			padding: 15px;
 			font-family: $monospace;
-			color: #404647;
+			color: #e57253;
 			font-weight: bolder;
-			@include background-opacity(#333, 0.5)
+			text-align: center;
+			background-color: rgba(51, 51, 51, .7);
+			@include border-top-radius(5px);
+			@include border-bottom-radius(5px);
+			@include border-left-radius(5px);
+			@include border-right-radius(5px);
 		}
 	}
 }

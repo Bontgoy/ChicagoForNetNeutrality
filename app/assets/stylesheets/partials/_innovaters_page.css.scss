@@ -1,10 +1,17 @@
 div.innovaters-page {
 	@include span-columns(12);
 	background-color: #213759;
+	color: #A8B3CE;
+	text-align: center;
+}
 
-	div.innovaters-body {
-		@include span-columns(8);
-		@include shift(2);
-		color: #A8B3CE;
-	}
+div.innovaters-body {
+	@include outer-container;
+	@include span-columns(8);
+	@include shift(2);
+	
+}
+
+.innovater-images {
+	margin: 12px 10% 0 10%;
 }

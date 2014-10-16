@@ -1,0 +1,4 @@
+div.logo-head {
+	height: 224px;
+	@include background(url("logo.png") center no-repeat #404647);
+}

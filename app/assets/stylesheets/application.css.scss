@@ -10,16 +10,10 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require_self
  *= require normalize-rails
+ *= require_self
  */
 @import "bourbon";
 @import "neat";
-@import "welcome";
-
-div.container {
-  .head-div {
-  	height: 224px;
-  	@include background(url("logo.png") center no-repeat, linear-gradient(red, green), scroll);
-  }
-}
+@import "partials/_header";
+@import "partials/_skyline_page";

@@ -1,13 +1,12 @@
-div.innovaters-page {
+div.mission-page {
 	@include span-columns(12);
 	background-color: #213759;
 	color: #A8B3CE;
 	text-align: center;
 }
 
-.pic {
+div.mission-body {
 	@include outer-container;
-	@include span-columns(3);
-	@include shift(1);
-	margin-top: 4%;
+	@include span-columns(8);
+	@include shift(2);
 }

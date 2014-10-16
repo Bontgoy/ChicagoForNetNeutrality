@@ -1,3 +1,4 @@
+
 .white-popup-block {
 	@include outer-container;
 	@include span-columns(9);
@@ -6,4 +7,14 @@
 	margin-top: 3%;
 	border-radius: 25px;
 	text-align: center;
+		
+		.popup-header {
+			border-bottom: solid 4px;
+			border-radius: 25px 25px 0 0;
+			background-color: white;
+			
+			.pic {
+				margin-top: 1%;
+			}
+		}
 }

@@ -21,7 +21,7 @@ $(function () {
 	$('.mcgee-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
 	});
 
 	$('.baker-modal').magnificPopup({

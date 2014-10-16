@@ -1,0 +1,22 @@
+div.footer {
+	@include span-columns(12);
+	@include background(url("") center bottom no-repeat #404647);
+	@include background-size(auto);
+	height: 100%;
+	color: #A8B3CE;
+
+	div.contact {
+		@include span-columns(4);
+		@include shift(2);
+		text-align: left;
+	}
+
+	div.credits {
+		@include span-columns(4);
+		text-align: right;
+
+		ul {
+			list-style-type: none; 
+		}
+	}
+}

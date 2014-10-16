@@ -8,22 +8,22 @@
 	border-radius: 15px;
 	text-align: center;
 		
-		.popup-header {
-			border-bottom: solid 2px;
-			border-radius: 15px 15px 0 0;
-			background-color: rgba(157, 174, 202, .8);
-			
-			.pic {
-				margin-top: 1%;
-				border-radius: 20px;
-			}
+	.popup-header {
+		border-bottom: solid 2px;
+		border-radius: 15px 15px 0 0;
+		background-color: rgba(157, 174, 202, .8);
+		
+		.pic {
+			margin-top: 1%;
+			border-radius: 20px;
 		}
-
-}
-
-@media (max-width: 797px){
-	.white-popup-block {
-		@include span-columns(9);
-		@include shift(1.5);
 	}
 }
+
+
+
+
+
+
+
+

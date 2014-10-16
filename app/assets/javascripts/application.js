@@ -17,14 +17,46 @@
 //= require_tree .
 
 $(function () {
-	$('.popup-modal').magnificPopup({
+
+	$('.mcgee-modal').magnificPopup({
 		type: 'inline',
-		preloader: false,
-		focus: '#username',
-		modal: true
+		alignTop: true,
+		overflowY: 'scroll'
 	});
-	$(document).on('click', '.popup-modal-dismiss', function (e) {
-		e.preventDefault();
-		$.magnificPopup.close();
+
+	$('.baker-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
+	});
+
+	$('.biss-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
+	});
+
+	$('.museum-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
+	});
+
+	$('.singham-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
+	});
+
+	$('.wozniak-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
+	});
+
+	$('.copps-modal').magnificPopup({
+		type: 'inline',
+		alignTop: true,
+		overflowY: 'scroll'
 	});
 });

@@ -1,9 +1,4 @@
 Rails.application.routes.draw do
-	resources :welcome do 
-		resources :statements
-	end
-	
+	resources :welcome, only: :index
   root 'welcome#index'
-
-  get 'welcome/_skyline'
 end

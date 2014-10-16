@@ -1,0 +1,9 @@
+.white-popup-block {
+	@include outer-container;
+	@include span-columns(9);
+	@include shift(1.5);
+	background: #8d9196;
+	margin-top: 3%;
+	border-radius: 25px;
+	text-align: center;
+}

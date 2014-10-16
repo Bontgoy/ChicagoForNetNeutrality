@@ -15,3 +15,7 @@
 //= require turbolinks
 //= require magnific-popup
 //= require_tree .
+
+$(document).ready(function() {
+  $('.image-link').magnificPopup({type:'ajax'});
+});

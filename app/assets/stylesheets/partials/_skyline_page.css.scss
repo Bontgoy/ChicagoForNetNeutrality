@@ -1,6 +1,6 @@
 div.skyline-page {
 	@include span-columns(12);
-	@include background(url("skyline.jpg") center no-repeat);
+	@include background(url("sky-line-resized.jpg") center no-repeat);
 	@include background-size(cover);
 
 	.sky-body {
@@ -8,12 +8,11 @@ div.skyline-page {
 		@include shift(2);
 		h1 {
 			margin: 35px 0 54% 0;
-			padding: 15px;
-			font-family: $monospace;
+			padding: 8px;
 			color: #e57253;
 			font-weight: bolder;
 			text-align: center;
-			background-color: rgba(51, 51, 51, .7);
+			background-color: rgba(51, 51, 51, .53);
 			@include border-top-radius(5px);
 			@include border-bottom-radius(5px);
 			@include border-left-radius(5px);

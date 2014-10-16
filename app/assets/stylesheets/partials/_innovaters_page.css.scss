@@ -3,12 +3,28 @@ div.innovaters-page {
 	background-color: #213759;
 	color: #A8B3CE;
 	text-align: center;
+	padding-left:5.5%;
+}
+
+.innovater-images {
+	@include outer-container;
+	@include span-columns(3);
+	margin: 0;
+	margin-top: 1%;
 }
 
 .pic {
-	@include outer-container;
+
 
 	height: 130px;
 	width: 129.515625px;
-	margin-top: 4%;
+
+}
+
+@media (max-width: 797px){
+	.innovater-images {
+		@include span-columns(6);
+		margin: 0;
+
+	}
 }

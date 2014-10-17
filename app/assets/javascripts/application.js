@@ -22,41 +22,48 @@ $(function () {
 		type: 'inline',
 		alignTop: true,
 		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.baker-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.biss-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.museum-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.singham-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.wozniak-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 
 	$('.copps-modal').magnificPopup({
 		type: 'inline',
 		alignTop: true,
-		overflowY: 'scroll'
+		overflowY: 'scroll',
+		fixedContentPos: true
 	});
 });

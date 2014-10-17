@@ -20,10 +20,14 @@
 	}
 }
 
+.statement {
+	padding-left:5.5%;
+	padding-right:5.5%;
+}
 
-
-
-
-
-
-
+@media (max-width: 797px){
+	.white-popup-block {
+		@include span-columns(9);
+		@include shift(1.5);
+	}
+}

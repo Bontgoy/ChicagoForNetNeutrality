@@ -6,13 +6,20 @@ div.footer {
 	color: #A8B3CE;
 
 	div.contact {
-		@include span-columns(4);
-		@include shift(2);
+		@include outer-container;
+		@include span-columns(3);
+		@include shift(1.5);
 		text-align: left;
 	}
 
+	div.common-cause {
+		@include span-columns(3);
+
+		text-align: center;
+	}
+
 	div.credits {
-		@include span-columns(4);
+		@include span-columns(3);
 		text-align: right;
 
 		ul {

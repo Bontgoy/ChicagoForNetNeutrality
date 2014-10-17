@@ -9,20 +9,33 @@ div.footer {
 		@include outer-container;
 		@include span-columns(3);
 		@include shift(1.5);
+		height: 100%;
 		text-align: left;
 	}
 
 	div.common-cause {
 		@include span-columns(3);
+		height: 100%;
 		text-align: center;
+
+		a {
+
+		}
 	}
 
 	div.credits {
 		@include span-columns(3);
+		height: 100%;
 		text-align: right;
+	}
+}
 
-		ul {
-			list-style-type: none; 
-		}
+@media (max-width: 720px){
+	div.credits {
+		visibility: hidden;
+	}
+
+	div.contact {
+		visibility: hidden;
 	}
 }

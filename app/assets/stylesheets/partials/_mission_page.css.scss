@@ -1,12 +1,16 @@
 div.mission-page {
 	@include span-columns(12);
-	background-color: #213759;
-	color: #A8B3CE;
-	text-align: center;
+	background-color: #FFFFFF;
+	border-top: solid 1px;
+	border-color: #A8B3CE;
 }
 
 div.mission-body {
 	@include outer-container;
 	@include span-columns(8);
 	@include shift(2);
+
+	h4 {
+		margin-top: -2.3%;
+	}
 }

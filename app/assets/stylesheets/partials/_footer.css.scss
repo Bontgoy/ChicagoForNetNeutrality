@@ -1,9 +1,9 @@
 div.footer {
 	@include span-columns(12);
-	@include background(url("") center bottom no-repeat #404647);
+	@include background(url("common-cause-illinois.jpg") center no-repeat #FFFFFF);
 	@include background-size(auto);
 	height: 100%;
-	color: #A8B3CE;
+	/*color: #A8B3CE;*/
 
 	div.contact {
 		@include outer-container;
@@ -14,7 +14,6 @@ div.footer {
 
 	div.common-cause {
 		@include span-columns(3);
-
 		text-align: center;
 	}
 

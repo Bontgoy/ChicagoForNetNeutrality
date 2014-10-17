@@ -3,7 +3,6 @@
 	@include outer-container;
 	@include span-columns(7);
 	@include shift(2.5);
-	background-color: rgba(157, 174, 202, .8);
 	margin-top: 3%;
 	border-radius: 15px;
 	text-align: center;
@@ -11,7 +10,7 @@
 	.popup-header {
 		border-bottom: solid 2px;
 		border-radius: 15px 15px 0 0;
-		background-color: rgba(157, 174, 202, .8);
+		border-color: #2494C4;
 		
 		.pic {
 			margin-top: 1%;

@@ -30,7 +30,16 @@ div.footer {
 			@include span-columns(6);
 			height: 100%;
 			text-align: right;
-			color: #020202;
+			margin-top: 3%;
+			
+			p {
+				color: #163B6B;
+
+				a {
+					color: #E57253;
+					text-decoration: none;					
+				}
+			}
 		}
 	}
 }

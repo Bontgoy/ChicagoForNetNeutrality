@@ -1,41 +1,31 @@
 div.footer {
 	@include span-columns(12);
-	@include background(url("common-cause-illinois.jpg") center no-repeat #FFFFFF);
+	@include background(url("") center no-repeat #FFFFFF);
 	@include background-size(auto);
 	height: 100%;
-	/*color: #A8B3CE;*/
 
 	div.contact {
-		@include outer-container;
-		@include span-columns(3);
-		@include shift(1.5);
+		@include span-columns(6);
 		height: 100%;
-		text-align: left;
-	}
-
-	div.common-cause {
-		@include span-columns(3);
-		height: 100%;
-		text-align: center;
-
-		a {
-
+		
+		button {
+			background-color: #2495C5;
 		}
 	}
 
 	div.credits {
-		@include span-columns(3);
+		@include span-columns(6);
 		height: 100%;
 		text-align: right;
 	}
 }
 
 @media (max-width: 720px){
-	div.credits {
+/*	div.credits {
 		visibility: hidden;
 	}
 
 	div.contact {
 		visibility: hidden;
-	}
+	}*/
 }

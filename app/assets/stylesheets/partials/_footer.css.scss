@@ -1,7 +1,5 @@
 div.footer {
 	@include span-columns(12);
-	@include background(url("") center no-repeat #FFFFFF);
-	@include background-size(auto);
 	height: 100%;
 
 	div.fat-footer {
@@ -14,9 +12,13 @@ div.footer {
 			button {
 				background-color: #8e94a0;
 				border-radius: 20px;
-				margin: 4% 14%;
+				margin: 4% 17.25%;
 				padding: 2% 5%;
-				color: #FFFFFF;
+				
+				a {
+					text-decoration: none;
+					color: #FFFFFF;
+				}
 			}
 
 			.cause-logo {
@@ -28,25 +30,25 @@ div.footer {
 			@include span-columns(6);
 			height: 100%;
 			text-align: right;
+			color: #020202;
 		}
 	}
 }
 
 @media (max-width: 720px){
-	div.contact {
-		@include shift(3);
-		margin: 0 15.5%;
 
-		button {
-			margin: 20% 10%;
+	div.footer {
+		div.contact {
+			@include shift(3);
+			margin: 0 15.5%;
 		}
-	}
 
-	div.credits {
-		@include shift(3);
-		
-		p {
-			text-align: center;
+		div.credits {
+			@include shift(3);
+			
+			p {
+				text-align: center;
+			}
 		}
 	}
 }

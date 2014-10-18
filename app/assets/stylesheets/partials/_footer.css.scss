@@ -4,28 +4,49 @@ div.footer {
 	@include background-size(auto);
 	height: 100%;
 
-	div.contact {
-		@include span-columns(6);
-		height: 100%;
-		
-		button {
-			background-color: #2495C5;
-		}
-	}
+	div.fat-footer {
+		@include outer-container;
 
-	div.credits {
-		@include span-columns(6);
-		height: 100%;
-		text-align: right;
+		div.contact {
+			@include span-columns(6);
+			height: 100%;
+			
+			button {
+				background-color: #8e94a0;
+				border-radius: 20px;
+				margin: 4% 14%;
+				padding: 2% 5%;
+				color: #FFFFFF;
+			}
+
+			.cause-logo {
+				margin: 0 7%;
+			}
+		}
+
+		div.credits {
+			@include span-columns(6);
+			height: 100%;
+			text-align: right;
+		}
 	}
 }
 
 @media (max-width: 720px){
-/*	div.credits {
-		visibility: hidden;
+	div.contact {
+		@include shift(3);
+		margin: 0 15.5%;
+
+		button {
+			margin: 20% 10%;
+		}
 	}
 
-	div.contact {
-		visibility: hidden;
-	}*/
+	div.credits {
+		@include shift(3);
+		
+		p {
+			text-align: center;
+		}
+	}
 }

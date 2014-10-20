@@ -7,6 +7,13 @@ div.innovaters-page {
 	padding-top: 2%;
 	margin: 0 0 0 -5%;
 	
+	.call-to-action {
+		margin: -1.5% 3% 1% 2%;
+		background-color: rgba(51, 51, 51, .53);
+		border-radius: 12px;
+		padding: 1%;
+	}
+
 	ul {
 		list-style-type: none;
 		/*text-align: left;*/
@@ -32,6 +39,11 @@ div.innovaters-page {
 	div.innovaters-page {
 		padding-right: 2.75%;
 		margin: auto;
+
+		.call-to-action {
+			margin-top: 2%;
+			padding: 2%;
+		}
 
 		ul {
 			margin: -4% 0 5% -21.5%;

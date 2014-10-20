@@ -42437,3 +42437,3418 @@ Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:3
 
 
 Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:36:53 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.9ms)
+  Rendered welcome/_mission.html.erb (0.4ms)
+  Rendered welcome/_footer.html.erb (0.4ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 87ms (Views: 86.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:40:45 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:40:46 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:40:46 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (6.8ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 321ms (Views: 320.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:42:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (7.1ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.4ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:42:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:43:06 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.8ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.4ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 330ms (Views: 329.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:43:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:43:21 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.5ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 333ms (Views: 332.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:43:22 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.0ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 348ms (Views: 346.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:42 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:43:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.7ms)
+  Rendered welcome/_national_museum.html.erb (0.4ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (8.4ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.4ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 339ms (Views: 338.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:43:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:44:55 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.4ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.5ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.2ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.9ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 343ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:44:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:48:24 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.7ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (9.4ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.7ms)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:48:25 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (6.9ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 81ms (Views: 80.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:48:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.6ms)
+  Rendered welcome/_innovaters.html.erb (7.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:48:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 77ms (Views: 76.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:49:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.4ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 92ms (Views: 91.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:49:36 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:49:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/_copps.html.erb (0.5ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (9.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (12.3ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 331ms (Views: 330.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:50:05 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:50:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (6.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.4ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 500 Internal Server Error in 224ms
+
+ActionView::Template::Error (Invalid CSS after "		text-align: ": expected expression (e.g. 1px, bold), was ";"
+  (in /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss:11)):
+    2: <html>
+    3: <head>
+    4:   <title>Neutrality</title>
+    5:   <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+    6:   <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+    7:   <%= csrf_meta_tags %>
+    8:   <meta content="minimum-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no" name="viewport" />
+  app/assets/stylesheets/partials/_innovaters_page.css.scss:11
+  app/assets/stylesheets/application.css.scss:24
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb___2203016492522293384_70347061519420'
+
+
+  Rendered /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (15.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.8ms)
+  Rendered welcome/_mcgee.html.erb (0.6ms)
+  Rendered welcome/_biss.html.erb (0.7ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/_copps.html.erb (0.4ms)
+  Rendered welcome/_baker.html.erb (0.5ms)
+  Rendered welcome/_innovaters.html.erb (12.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (15.4ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 336ms (Views: 335.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:50:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:50:50 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.6ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.5ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 341ms (Views: 340.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:50:51 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 85ms (Views: 84.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:50:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (7.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 78ms (Views: 77.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:51:01 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.5ms)
+  Rendered welcome/_copps.html.erb (0.4ms)
+  Rendered welcome/_baker.html.erb (0.4ms)
+  Rendered welcome/_innovaters.html.erb (10.0ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (12.4ms)
+Completed 200 OK in 81ms (Views: 80.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:51:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.8ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.5ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 83ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:51:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.2ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.5ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 343ms (Views: 342.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:52:07 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:52:11 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (7.5ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 343ms (Views: 342.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:11 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:11 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:11 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:52:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:52:23 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.6ms)
+  Rendered welcome/_baker.html.erb (0.4ms)
+  Rendered welcome/_innovaters.html.erb (8.3ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.0ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 325ms (Views: 324.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:52:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (6.6ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (8.9ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 334ms (Views: 333.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:52:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.5ms)
+  Rendered welcome/_copps.html.erb (0.4ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.7ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 319ms (Views: 319.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:53:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.4ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.3ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.6ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 333ms (Views: 332.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:54:31 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:54:35 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.4ms)
+  Rendered welcome/_mcgee.html.erb (0.4ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.3ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.9ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 334ms (Views: 333.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:35 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:35 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:54:36 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:54:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.4ms)
+  Rendered welcome/_innovaters.html.erb (7.0ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.0ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 330ms (Views: 330.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:54:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.1ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 385ms (Views: 384.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:55:19 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:55:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:55:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.4ms)
+  Rendered welcome/_national_museum.html.erb (0.6ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (9.1ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 311ms (Views: 310.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:55:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:55:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.4ms)
+  Rendered welcome/_biss.html.erb (0.5ms)
+  Rendered welcome/_national_museum.html.erb (0.5ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.5ms)
+  Rendered welcome/_innovaters.html.erb (10.1ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  Rendered welcome/_footer.html.erb (0.4ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (13.5ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 336ms (Views: 335.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:55:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.6ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 340ms (Views: 339.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:55:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (6.7ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.6ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 326ms (Views: 326.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:56:11 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.4ms)
+  Rendered welcome/_innovaters.html.erb (7.6ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 340ms (Views: 339.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:56:16 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:56:22 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.0ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 338ms (Views: 337.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:56:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.4ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.3ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.9ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 374ms (Views: 373.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:56:39 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:56:54 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.4ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (8.0ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.6ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 334ms (Views: 333.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:56:55 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:57:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.3ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/_innovaters.html.erb (7.9ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.4ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 330ms (Views: 329.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:57:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/_mcgee.html.erb (0.2ms)
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/_copps.html.erb (0.3ms)
+  Rendered welcome/_baker.html.erb (0.4ms)
+  Rendered welcome/_innovaters.html.erb (7.3ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.1ms)
+  Rendered welcome/index.html.erb within layouts/application (10.2ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 344ms (Views: 343.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:57:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-20 17:57:59 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/_mcgee.html.erb (0.6ms)
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/_copps.html.erb (0.2ms)
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/_innovaters.html.erb (8.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/_skyline.html.erb (0.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.8ms)
+WARNING: background-size is deprecated and will be removed in the next major version release
+         on line 12 of /Users/ty/.rbenv/versions/2.1.1/lib/ruby/gems/2.1.0/gems/bourbon-3.2.3/app/assets/stylesheets/_bourbon-deprecated-upcoming.scss, in `background-size'
+         from line 4 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/partials/_skyline_page.css.scss
+         from line 22 of /Users/ty/Desktop/ChicagoForNetNeutrality/app/assets/stylesheets/application.css.scss
+
+
+Completed 200 OK in 322ms (Views: 321.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/normalize-rails.css?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-20 17:58:00 -0500
+
+
+Started GET "/assets/sky-line-resized.jpg" for 127.0.0.1 at 2014-10-20 17:58:00 -0500

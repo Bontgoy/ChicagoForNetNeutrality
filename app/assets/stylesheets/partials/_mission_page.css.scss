@@ -5,10 +5,17 @@ div.mission-page {
 
 div.mission-body {
 	@include outer-container;
-	@include span-columns(8);
-	@include shift(2);
 
 	h4 {
 		margin-top: -2.3%;
+	}
+}
+
+@media (max-width: 797px){
+	
+	div.mission-body {
+	@include outer-container;
+	@include span-columns(8);
+	@include shift(2);
 	}
 }

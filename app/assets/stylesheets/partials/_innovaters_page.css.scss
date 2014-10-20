@@ -5,15 +5,17 @@ div.innovaters-page {
 	text-align: center;
 	padding-left:5.5%;
 	padding-top: 2%;
-
-	h5 {
-		
+	
+	ul {
+		list-style-type: none;
+		/*text-align: left;*/
+		margin: -4% 0 5% -10.75%;
 	}
 }
 
 .innovater-images {
 	@include outer-container;
-	@include span-columns(3);
+	@include span-columns(6);
 	margin: 0;
 	margin-top: 1%;
 }
@@ -25,6 +27,13 @@ div.innovaters-page {
 }
 
 @media (max-width: 797px){
+
+	div.innovaters-page {
+		ul {
+			margin: -4% 0 5% -21.5%;
+		}
+	}
+
 	.innovater-images {
 		@include span-columns(6);
 		margin: 6% 0 0 0;

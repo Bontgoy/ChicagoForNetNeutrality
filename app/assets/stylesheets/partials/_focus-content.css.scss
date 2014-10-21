@@ -1,0 +1,27 @@
+.focus-content {
+	@include span-columns(12);
+	/*@include outer-container;*/
+
+	.innovaters-page {
+		@include span-columns(8);
+	}
+
+	.mission-page {
+		@include span-columns(4);
+	}
+}
+
+@media (max-width: 797px){
+	.focus-content {
+		/*@include span-columns(12);*/
+		/*@include outer-container;*/
+
+		.innovaters-page {
+			@include span-columns(12);
+		}
+
+		.mission-page {
+			@include span-columns(12);
+		}
+	}
+}

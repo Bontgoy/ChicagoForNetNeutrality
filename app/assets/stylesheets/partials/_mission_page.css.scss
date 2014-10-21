@@ -1,11 +1,15 @@
 div.mission-page {
 	@include span-columns(12);
-	background-color: #FFFFFF;
+	background-color: #055E85;
 }
 
 div.mission-body {
 	@include outer-container;
 	border-bottom: solid 2px #888888;
+
+	.main-logo {
+		margin: 0 18.5% 0 18.5%;
+	}
 
 	h4 {
 		margin-top: -2.3%;
@@ -18,5 +22,9 @@ div.mission-body {
 	@include outer-container;
 	@include span-columns(8);
 	@include shift(2);
+
+	.main-logo {
+		margin-left: 0;
+	}
 	}
 }

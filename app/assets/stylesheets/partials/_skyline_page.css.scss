@@ -2,6 +2,7 @@ div.skyline-page {
 	@include span-columns(12);
 	@include background(url("rounded-skyline.jpg") center no-repeat);
 	@include background-size(cover);
+	height: 224px;
 
 	.sky-body {
 		@include span-columns(12);

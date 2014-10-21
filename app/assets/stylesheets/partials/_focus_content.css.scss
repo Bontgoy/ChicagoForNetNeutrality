@@ -1,6 +1,6 @@
 .focus-content {
 	@include span-columns(12);
-	background-color: #055E85;
+	background-color: #FFFFFF;
 	/*@include outer-container;*/
 
 	.innovaters-page {
@@ -8,6 +8,10 @@
 	}
 
 	.mission-page {
+		@include span-columns(4);
+	}
+
+	.contact-page {
 		@include span-columns(4);
 	}
 }
@@ -22,6 +26,10 @@
 		}
 
 		.mission-page {
+			@include span-columns(12);
+		}
+
+		.contact-page {
 			@include span-columns(12);
 		}
 	}

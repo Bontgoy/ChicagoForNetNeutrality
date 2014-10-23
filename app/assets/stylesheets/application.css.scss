@@ -10,22 +10,18 @@
  * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
  * file per style scope.
  *
- *= require magnific-popup
- *= require normalize-rails
  *= require_self
+ *= require slick
+ *= require magnific-popup
  */
-@import "bourbon";
-@import "neat";
-@import "partials/_header";
-@import "partials/_focus_content";
-@import "partials/_skyline_page";
-@import "partials/_mission_page";
-@import "partials/_contact_page";
-@import "partials/_innovaters_page";
-@import "partials/_popups";
-@import "partials/_footer";
 
-body {
-	font-family: $helvetica;
-	color: #e57253;
-}
+@import "bourbon";
+@import "base/base";
+@import "neat";
+@import "welcome";
+@import "partials/header";
+@import "partials/hero";
+@import "partials/mission";
+@import "partials/innovators";
+@import "partials/popups";
+@import "partials/footer";

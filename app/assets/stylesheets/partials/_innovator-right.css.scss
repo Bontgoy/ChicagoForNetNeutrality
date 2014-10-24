@@ -6,9 +6,11 @@
 	height: 250px;
 	margin-bottom: 3em;
 	overflow: auto;
+	
 
 	.profile {
 		@include span-columns(3);
+		position: absolute;
 		
 		.photo {
 			@include span-columns(12);
@@ -33,5 +35,6 @@
 
 	.statement {
 		@include span-columns(9);
+		float: right;
 	}
 }

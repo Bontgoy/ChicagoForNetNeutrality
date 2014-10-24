@@ -4,10 +4,10 @@
   $hero-background-bottom: adjust-hue($hero-background-top, -70);
   $hero-color: white;
   $gradient-angle: 10deg;
-  $hero-image: 'rounded-skyline.jpg';
+  $hero-image: 'rounded-skyline-op.jpg';
   margin-bottom: 2em;
 
-  @include background(url($hero-image), linear-gradient($gradient-angle, $hero-background-bottom, $hero-background-top), no-repeat $hero-background-top scroll);
+  @include background(url($hero-image),no-repeat scroll);
 
   background-repeat: no-repeat;
   background-position: top;

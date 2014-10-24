@@ -1,6 +1,6 @@
 require 'test_helper'
 
-class InnovatorsTest < ActiveSupport::TestCase
+class InnovatorTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

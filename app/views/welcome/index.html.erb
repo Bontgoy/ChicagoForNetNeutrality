@@ -10,33 +10,21 @@
 	<%= render "mission"%>
 </div>
 
-<div class="innovator-right">
-	<%= render "wozniak_quote"%>
-</div>
 
-<div class="innovator-left">
-	<%= render "mcgee_quote"%>
-</div>
+<% @innovators.each do |innovator|%>
+	<% if innovator.last_name == 'wozniak' || innovator.last_name == 'biss' || innovator.last_name == 'national_museum' || innovator.last_name == 'copps'%>
+		
+		<div class="innovator-right">
+				<%= render "#{innovator.last_name}_quote"%>
+		</div>
 
-<div class="innovator-right">
-	<%= render "biss_quote"%>
-</div>
+		<% else %>
+			<div class="innovator-left">
+				<%= render "#{innovator.last_name}_quote"%>
+			</div>
+	<% end %>
+<% end %>
 
-<div class="innovator-left">
-	<%= render "baker_quote"%>
-</div>
-
-<div class="innovator-right">
-	<%= render "national_museum_quote"%>
-</div>
-
-<div class="innovator-left">
-	<%= render "singham_quote"%>
-</div>
-
-<div class="innovator-right">
-	<%= render "copps_quote"%>
-</div>
 
 <div class="the-footer">
 	<%= render "footer"%>

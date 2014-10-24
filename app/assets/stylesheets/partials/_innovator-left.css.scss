@@ -3,14 +3,13 @@
 	$pic-height: 130px;
 	$pic-width: 129.515625px;
 	border-bottom: solid 1px;
-	height: 310px;
 	margin-bottom: 3em;
 	overflow: auto; 
 
 	.profile {
 		@include span-columns(3);
-		@include shift(7);
-		position: absolute;
+		@include shift(9);
+		position: relative;
 		
 		.photo {
 			@include span-columns(12);
@@ -35,9 +34,9 @@
 
 	.statement {
 		@include span-columns(9);
+		position: absolute;
     margin-left: auto;
     margin-right: auto;
-    padding-right: 10em;
 	}
 
 	@media (max-width: 570px) {
@@ -50,6 +49,7 @@
 
 		.statement {
 			@include span-columns(12);
+			position: static;
 			margin-top: 3em;
 			padding-right: 0em;
 		}

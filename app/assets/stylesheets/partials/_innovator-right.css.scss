@@ -32,10 +32,16 @@
 	.statement {
 		@include span-columns(9);
 		float: right;
-		padding-right: 1em;
 		margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
+	}
+
+	@media (max-width: 1024px) {
+
+		.statement{
+			padding-right: 1em;
+		}
 	}
 	
 	@media (max-width: 570px) {

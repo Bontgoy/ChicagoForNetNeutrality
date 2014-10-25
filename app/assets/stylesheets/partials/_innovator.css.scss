@@ -1,5 +1,7 @@
 .innovator {
 	@include outer-container;
+	$pic-height: 200px;
+	$pic-width: 200px;
 	
 	.home-link {
 		@include span-columns(12);
@@ -12,16 +14,20 @@
 		margin-bottom: 2em;		
 
 		.photo {
-			@include span-columns(3);
-			padding-left: 2em;
+			@include span-columns(5);
+			margin-left: 2em;
+			height: $pic-height;
+			width: $pic-width;
 
 			.pic {
 				border-radius: 5px;
+				height: $pic-height;
+				width: $pic-width;
 			}
 		}
 
 		.titles {
-			@include span-columns(3);
+			
 			padding-right: 2em;
 		}
 	}
@@ -39,6 +45,7 @@
 			
 			.photo {
 				@include span-columns(12);
+				margin-left: 0;
 				padding: 0;
 				
 				.pic {

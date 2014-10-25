@@ -2,7 +2,6 @@
 	@include outer-container;
 	$pic-height: 130px;
 	$pic-width: 129.515625px;
-	border-bottom: solid 1px;
 	margin-bottom: 3em;
 
 	.profile {
@@ -29,10 +28,11 @@
 	    text-align: center;
 		}
 	}
-
+	
 	.statement {
 		@include span-columns(9);
 		float: right;
+		margin-top: 4em;
     margin-left: auto;
     margin-right: auto;
 	}
@@ -47,6 +47,9 @@
 		.statement {
 			@include span-columns(12);
 			margin-top: 3em;
+			padding-right: 1em;
+			padding-left: 1em;
 		}
 	}
 }
+

@@ -29797,3 +29797,4012 @@ Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 18:5
 
 
 Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 18:58:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:00:35 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.7ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (3.5ms)
+  Rendered welcome/_hero.html.erb (2.3ms)
+  Rendered welcome/_mission.html.erb (0.6ms)
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (2.8ms)
+  Rendered welcome/_singham_quote.html.erb (3.9ms)
+  Rendered welcome/_biss_quote.html.erb (4.8ms)
+  Rendered welcome/_mcgee_quote.html.erb (3.1ms)
+  Rendered welcome/_national_museum_quote.html.erb (3.1ms)
+  Rendered welcome/_baker_quote.html.erb (4.8ms)
+  Rendered welcome/_copps_quote.html.erb (2.9ms)
+  Rendered welcome/_footer.html.erb (2.6ms)
+  Rendered welcome/index.html.erb within layouts/application (65.2ms)
+Completed 200 OK in 302ms (Views: 285.7ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:00:36 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.7ms)
+  Rendered welcome/show.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 111ms (Views: 108.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:00:43 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:01:18 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (1.8ms)
+  Rendered welcome/_hero.html.erb (2.4ms)
+  Rendered welcome/_mission.html.erb (1.2ms)
+  [1m[35mInnovator Load (1.4ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (2.6ms)
+  Rendered welcome/_singham_quote.html.erb (5.0ms)
+  Rendered welcome/_biss_quote.html.erb (1.6ms)
+  Rendered welcome/_mcgee_quote.html.erb (2.7ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.7ms)
+  Rendered welcome/_baker_quote.html.erb (1.8ms)
+  Rendered welcome/_copps_quote.html.erb (4.3ms)
+  Rendered welcome/_footer.html.erb (2.0ms)
+  Rendered welcome/index.html.erb within layouts/application (75.1ms)
+Completed 200 OK in 291ms (Views: 288.0ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:01:19 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:01:21 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.8ms)
+  Rendered welcome/show.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:04:15 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.6ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 583ms (Views: 581.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:04:16 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 103ms (Views: 101.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:04:17 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 428ms (Views: 426.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:04:58 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:06:00 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 437ms (Views: 435.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:06:01 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 447ms (Views: 445.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:07:14 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:07:47 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 492ms (Views: 490.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:07:48 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:08:07 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 460ms (Views: 458.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:08:08 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:08:37 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 478ms (Views: 476.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:08:38 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:10:46 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 612ms (Views: 610.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:10:47 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 450ms (Views: 448.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:06 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:07 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:07 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:07 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:07 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:11:07 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:11:34 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 455ms (Views: 453.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:11:35 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 551ms (Views: 549.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:11:48 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:12:18 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 530ms (Views: 528.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:12:19 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:12:44 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 440ms (Views: 438.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:12:45 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.2ms)
+  Rendered welcome/_hero.html.erb (0.3ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  [1m[35mInnovator Load (0.6ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (0.8ms)
+  Rendered welcome/_singham_quote.html.erb (0.8ms)
+  Rendered welcome/_biss_quote.html.erb (0.5ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.7ms)
+  Rendered welcome/_national_museum_quote.html.erb (1.2ms)
+  Rendered welcome/_baker_quote.html.erb (0.7ms)
+  Rendered welcome/_copps_quote.html.erb (1.0ms)
+  Rendered welcome/_footer.html.erb (0.8ms)
+  Rendered welcome/index.html.erb within layouts/application (28.8ms)
+Completed 200 OK in 185ms (Views: 183.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:12:52 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:13:05 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 448ms (Views: 446.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:06 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 463ms (Views: 461.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:13:17 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 576ms (Views: 574.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:13:53 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.5ms)
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 461ms (Views: 458.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:14:12 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 525ms (Views: 523.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:14:17 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 457ms (Views: 455.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:14:23 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:14:23 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 523ms (Views: 521.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:15:05 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 439ms (Views: 436.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:16 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (1.0ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 112ms (Views: 110.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:15:18 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:15:28 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 427ms (Views: 426.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:15:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (0.4ms)
+  Rendered welcome/_singham_quote.html.erb (0.4ms)
+  Rendered welcome/_biss_quote.html.erb (0.4ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.4ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.4ms)
+  Rendered welcome/_baker_quote.html.erb (0.2ms)
+  Rendered welcome/_copps_quote.html.erb (0.4ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (17.5ms)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:16:04 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:16:05 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:16:05 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:16:05 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:16:05 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:16:07 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.8ms)
+  Rendered welcome/show.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 96ms (Views: 94.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:16:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.8ms)
+  Rendered welcome/show.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 103ms (Views: 101.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.6ms)
+  Rendered welcome/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 439ms (Views: 437.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:17:22 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:17:42 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 424ms (Views: 422.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:17:43 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:17:46 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 467ms (Views: 465.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:17:47 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:17:56 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 439ms (Views: 438.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:17:57 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 453ms (Views: 451.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:02 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 446ms (Views: 444.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:18:13 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:18:29 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 475ms (Views: 473.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:29 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:30 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 436ms (Views: 434.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:37 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:38 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:18:38 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:18:38 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 521ms (Views: 519.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:19:14 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:19:40 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 433ms (Views: 431.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:19:41 -0500
+
+
+Started GET "/welcome/3" for 127.0.0.1 at 2014-10-24 19:20:11 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 3]]
+  Rendered welcome/_biss.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 447ms (Views: 445.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:20:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:20:40 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.2ms)
+  Rendered welcome/_hero.html.erb (0.1ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (0.5ms)
+  Rendered welcome/_singham_quote.html.erb (0.3ms)
+  Rendered welcome/_biss_quote.html.erb (0.3ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.2ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.2ms)
+  Rendered welcome/_baker_quote.html.erb (0.3ms)
+  Rendered welcome/_copps_quote.html.erb (0.2ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.5ms)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:20:41 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:20:44 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.7ms)
+  Rendered welcome/show.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 91ms (Views: 89.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.6ms)
+  Rendered welcome/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 446ms (Views: 444.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:21:52 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mInnovator Load (0.4ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 451ms (Views: 448.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:02 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:03 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:03 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:03 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:22:03 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:22:08 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 460ms (Views: 458.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:22:09 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 524ms (Views: 522.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:22:14 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 441ms (Views: 439.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:22:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:25:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (0.4ms)
+  Rendered welcome/_singham_quote.html.erb (0.2ms)
+  Rendered welcome/_biss_quote.html.erb (0.2ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.2ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.2ms)
+  Rendered welcome/_baker_quote.html.erb (0.3ms)
+  Rendered welcome/_copps_quote.html.erb (0.3ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:25:43 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:26:53 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.9ms)
+  Rendered welcome/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 536ms (Views: 534.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.8ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 101ms (Views: 99.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:54 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:55 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:55 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:55 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:26:55 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:26:55 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 450ms (Views: 448.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:28:34 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:29:09 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 456ms (Views: 454.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:10 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:29:27 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 534ms (Views: 532.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:29:28 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 460ms (Views: 458.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:29:36 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:30:19 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 561ms (Views: 559.0ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:30:20 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 120ms (Views: 118.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:30:22 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:30:22 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 445ms (Views: 444.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:31:00 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:31:26 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 495ms (Views: 493.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:31:27 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 439ms (Views: 437.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:32:03 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:32:42 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 447ms (Views: 445.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:32:43 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 92ms (Views: 90.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:32:44 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (1.3ms)
+  Rendered welcome/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 101ms (Views: 99.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:33:15 -0500
+
+
+Started GET "/welcome/5" for 127.0.0.1 at 2014-10-24 19:33:39 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 5]]
+  Rendered welcome/_national_museum.html.erb (1.1ms)
+  Rendered welcome/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 438ms (Views: 436.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:33:40 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.3ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[35mInnovator Load (0.4ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (0.5ms)
+  Rendered welcome/_singham_quote.html.erb (0.5ms)
+  Rendered welcome/_biss_quote.html.erb (0.4ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.4ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.3ms)
+  Rendered welcome/_baker_quote.html.erb (0.4ms)
+  Rendered welcome/_copps_quote.html.erb (0.3ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 112ms (Views: 110.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:33:42 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:33:45 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 101ms (Views: 99.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:34:20 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 445ms (Views: 442.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:34:21 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:34:46 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (3.0ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 441ms (Views: 436.3ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:34:47 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:36:34 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 463ms (Views: 461.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:36:35 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:38:08 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 471ms (Views: 469.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:38:09 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:38:35 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 583ms (Views: 581.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:38:36 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 468ms (Views: 467.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:09 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:39:10 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 447ms (Views: 445.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 90ms (Views: 87.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:39:57 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 456ms (Views: 455.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:40:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.4ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.1ms)
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (0.6ms)
+  Rendered welcome/_singham_quote.html.erb (0.5ms)
+  Rendered welcome/_biss_quote.html.erb (0.5ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.5ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.5ms)
+  Rendered welcome/_baker_quote.html.erb (0.4ms)
+  Rendered welcome/_copps_quote.html.erb (0.4ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 110ms (Views: 109.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:40:27 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:40:31 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 97ms (Views: 95.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:40:56 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 443ms (Views: 442.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:40:57 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:41:27 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 594ms (Views: 592.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:27 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:41:28 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 101ms (Views: 99.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:41:29 -0500
+
+
+Started GET "/welcome/2" for 127.0.0.1 at 2014-10-24 19:41:43 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 2]]
+  Rendered welcome/_singham.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 569ms (Views: 568.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:41:44 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:41:48 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (0.4ms)
+  Rendered welcome/_singham_quote.html.erb (0.4ms)
+  Rendered welcome/_biss_quote.html.erb (0.4ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.3ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.3ms)
+  Rendered welcome/_baker_quote.html.erb (0.3ms)
+  Rendered welcome/_copps_quote.html.erb (0.5ms)
+  Rendered welcome/_footer.html.erb (0.3ms)
+  Rendered welcome/index.html.erb within layouts/application (18.1ms)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:41:49 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:41:52 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 82ms (Views: 80.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 431ms (Views: 429.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:42:06 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:42:21 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mInnovator Load (0.2ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 459ms (Views: 457.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:42:22 -0500
+
+
+Started GET "/welcome/1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 1]]
+  Rendered welcome/_wozniak.html.erb (0.2ms)
+  Rendered welcome/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 464ms (Views: 462.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/slick.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/magnific-popup/magnific-popup.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.css?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/slick.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/magnific-popup/jquery.magnific-popup.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/magnific-popup/index.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-24 19:42:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-24 19:42:31 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.0ms)
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (0.3ms)
+  Rendered welcome/_singham_quote.html.erb (0.2ms)
+  Rendered welcome/_biss_quote.html.erb (0.2ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.2ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.2ms)
+  Rendered welcome/_baker_quote.html.erb (0.3ms)
+  Rendered welcome/_copps_quote.html.erb (0.3ms)
+  Rendered welcome/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 103ms (Views: 102.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/singham.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/baker.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/copps.png" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/assets/common-cause-illinois.jpg" for 127.0.0.1 at 2014-10-24 19:42:32 -0500
+
+
+Started GET "/welcome/6" for 127.0.0.1 at 2014-10-24 19:42:36 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 6]]
+  Rendered welcome/_baker.html.erb (0.3ms)
+  Rendered welcome/show.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 94ms (Views: 92.6ms | ActiveRecord: 0.3ms)

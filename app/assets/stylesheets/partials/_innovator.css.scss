@@ -1,0 +1,66 @@
+.innovator {
+	@include outer-container;
+	
+	.home-link {
+		@include span-columns(12);
+		padding-left: 2em;
+		margin-bottom: 2em;
+	}
+
+	.profile {
+		@include span-columns(12);
+		margin-bottom: 2em;		
+
+		.photo {
+			@include span-columns(3);
+			padding-left: 2em;
+
+			.pic {
+				border-radius: 5px;
+			}
+		}
+
+		.titles {
+			@include span-columns(3);
+			padding-right: 2em;
+		}
+	}
+
+	.statement {
+		@include span-columns(12);
+		
+		padding: 0 2em 0 2em;
+	}
+
+	@media (max-width: 570px) {
+		
+		.profile {
+			@include span-columns(12);
+			
+			.photo {
+				@include span-columns(12);
+				padding: 0;
+				
+				.pic {
+					display: block;
+			    margin-left: auto;
+			    margin-right: auto;
+			  }
+			}
+
+			.titles {
+				@include span-columns(12);
+				@include shift(1);
+				
+				padding: 0;
+		    margin-left: auto;
+		    margin-right: auto;
+		    text-align: center;
+			}
+		}
+
+		.statement {
+			@include span-columns(12);
+		}
+	}
+}

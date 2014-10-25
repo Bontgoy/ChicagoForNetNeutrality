@@ -4,8 +4,6 @@
 	$pic-width: 129.515625px;
 	border-bottom: solid 1px;
 	margin-bottom: 3em;
-	overflow: auto;
-	
 
 	.profile {
 		@include span-columns(3);

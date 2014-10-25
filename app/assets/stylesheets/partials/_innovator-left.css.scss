@@ -33,6 +33,7 @@
 	.statement {
 		@include span-columns(8);
 		position: absolute;
+		padding-left: 1em;
 		margin-top: 4em;
     margin-left: auto;
     margin-right: auto;

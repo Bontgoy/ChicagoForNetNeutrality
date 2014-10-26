@@ -2,7 +2,6 @@
 	@include outer-container;
 	$pic-height: 130px;
 	$pic-width: 129.515625px;
-	margin-bottom: 3em;
 
 	.profile {
 		@include span-columns(3);
@@ -49,9 +48,10 @@
 		.statement {
 			@include span-columns(12);
 			position: static;
-			margin-top: 3em;
+			margin-top: 1.5em;
 			padding-right: 1em;
 			padding-left: 1em;
+			margin-bottom: 1.5em;
 		}
 	}
 }

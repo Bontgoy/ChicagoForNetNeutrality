@@ -41,7 +41,5 @@ gem 'spring',        group: :development
 gem 'rails_12factor', group: :production
 gem 'bourbon'
 gem 'neat'
-gem 'slick_rails'
-gem 'magnific-popup-rails'
 gem 'normalize-rails'
 ruby "2.1.1"

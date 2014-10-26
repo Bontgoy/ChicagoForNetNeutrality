@@ -13,119 +13,25 @@
 //= require jquery
 //= require jquery_ujs
 //= require turbolinks
-//= require slick
-//= require magnific-popup
 //= require_tree .
 
 $(document).ready(function(){
-  $(function() {
-    $('a[href*=#]:not([href=#])').click(function() {
-      event.preventDefault();
-      if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
-        var target = $(this.hash);
-        target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
-        if (target.length) {
-          $('html,body').animate({
-            scrollTop: target.offset().top
-          }, 3000);
-          return false;
-        }
-      }
-    });
+  $("a[href*=#mission]").click(function() {
+      $('html, body').animate({
+          scrollTop: $("a[name*=mission]").offset().top
+      }, 2000);
+      return false;
+  });
+    $("a[href*=#innovators]").click(function() {
+      $('html, body').animate({
+          scrollTop: $("a[name*=innovators]").offset().top
+      }, 2000);
+      return false;
+  });
+  $("a[href*=#contact]").click(function() {
+    $('html, body').animate({
+        scrollTop: $(".contact").offset().top
+    }, 2000);
+    return false;
   });
 });
-
-
-// Slick
-
-// $(document).ready(function(){
-
-// 	$('.uneven').slick({
-// 	  dots: false,
-// 	  infinite: true,
-// 	  speed: 1000,
-// 	  slidesToShow: 2,
-// 	  // slidesToScroll: 4,
-// 	  responsive: [
-//     	{
-//       	breakpoint: 1024,
-//       	settings: {
-//         	slidesToShow: 1,
-//         	// slidesToScroll: 3,
-//         	infinite: true,
-//         	dots: false
-//       	}
-//     	},
-//     	{
-//       	breakpoint: 600,
-//       	settings: {
-//         	slidesToShow: 1,
-//         	// slidesToScroll: 2,
-//         	dots: false
-//       	}
-//     	},
-//     	{
-//       	breakpoint: 480,
-//       	settings: {
-//         	slidesToShow: 1,
-//         	slidesToScroll: 1,
-//         	dots: false
-//       	}
-//     	}
-//   	]
-// 	});
-// });
-
-// // magnific popup
-
-// $(function () {
-
-//   $('.mcgee-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.baker-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.biss-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.museum-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.singham-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.wozniak-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-
-//   $('.copps-modal').magnificPopup({
-//     type: 'inline',
-//     alignTop: true,
-//     overflowY: 'scroll',
-//     fixedContentPos: true
-//   });
-// });

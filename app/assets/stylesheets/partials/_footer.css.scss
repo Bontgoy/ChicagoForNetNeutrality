@@ -59,4 +59,26 @@
       }
     }
   }
+
+  @media (max-width: 446px) {
+
+    .footer-content {
+
+      .credits {
+        @include span-columns(6);
+        @include shift(3);
+      }
+
+      .footer-secondary-links {
+        @include span-columns(12);
+
+        img {
+          float: none;
+          display: block;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      } 
+    }   
+  }
 }

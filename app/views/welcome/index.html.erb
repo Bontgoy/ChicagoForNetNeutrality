@@ -12,7 +12,7 @@
 
 
 <% @innovators.each do |innovator|%>
-	<% if innovator.last_name == 'wozniak' || innovator.last_name == 'biss' || innovator.last_name == 'national_museum' || innovator.last_name == 'copps'%>
+	<% if innovator.id.odd?%>
 		
 		<div class="innovator-right">
 				<%= render "#{innovator.last_name}_quote"%>

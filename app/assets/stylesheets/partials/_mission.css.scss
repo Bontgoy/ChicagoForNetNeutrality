@@ -1,15 +1,16 @@
 .intro-text {
   $intro-text-width: 60%;
-  $logo-height: 150px;
+  /*$logo-height: 150px;*/
 
   /*margin-bottom: 5em;*/
   margin-top: 2em;
   text-align: center;
   
-  .mission-logo {
+  /*.mission-logo {
     height: $logo-height;
-  }
-/*  h2 {
+  }*/
+  
+  h2 {
     font-family: $serif;
     font-weight: 800;
     margin-bottom: .3em;
@@ -18,7 +19,7 @@
       font-size: 3em;
       margin-bottom: .4em;
     }
-  }*/
+  }
 
   h4 {
     color: lighten($base-font-color, 20);

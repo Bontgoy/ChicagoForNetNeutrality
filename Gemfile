@@ -42,4 +42,4 @@ gem 'rails_12factor', group: :production
 gem 'bourbon'
 gem 'neat'
 gem 'normalize-rails'
-ruby "2.1.1"
+# ruby "2.1.1"

@@ -14,7 +14,7 @@
     @include outer-container;
     
     .credits {
-      @include span-columns(6);
+      @include span-columns(4.5);
 
       ul li {
         display: list-item;
@@ -22,6 +22,27 @@
         a {
           text-decoration: underline;
         }
+      }
+    }
+
+    .singer {
+      @include span-columns(4.5);
+        
+        p {
+          text-align: right;
+          margin-top: 0;
+          margin-bottom: 0;
+        }
+    }
+    
+    .footer-secondary-links {
+      @include span-columns(3);
+      
+      img {
+        height: 72px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
       }
     }
 
@@ -50,14 +71,6 @@
       }
     }
 
-    .footer-secondary-links {
-      @include span-columns(6);
-      
-      img {
-        height: 72px;
-        float: right;
-      }
-    }
   }
 
   @media (max-width: 446px) {
@@ -75,14 +88,21 @@
 
       }
 
+    .singer {
+      @include span-columns(12);
+      margin-top: 1em;
+
+      p {
+        margin: 0 auto 0 auto;
+        text-align: center;
+      }
+    }
+
       .footer-secondary-links {
         @include span-columns(12);
 
         img {
           float: none;
-          display: block;
-          margin-left: auto;
-          margin-right: auto;
         }
       } 
     }   

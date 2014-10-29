@@ -16,6 +16,10 @@
     .credits {
       @include span-columns(4.5);
 
+      ul {
+        margin-top: .25em;
+      }
+
       ul li {
         display: list-item;
 
@@ -90,7 +94,7 @@
 
     .singer {
       @include span-columns(12);
-      margin-top: 1em;
+      /*margin-top: 1em;*/
 
       p {
         margin: 0 auto 0 auto;

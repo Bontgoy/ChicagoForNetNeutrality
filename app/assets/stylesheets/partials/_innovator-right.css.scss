@@ -1,7 +1,10 @@
 .innovator-right {
-	@include outer-container;
+	@include span-columns(12);
 	$pic-height: 130px;
-	$pic-width: 129.515625px;
+	$pic-width: 130px;
+	background-color: #233f49;
+	color: white;
+	padding: 1em 4em 1em 1em;
 
 	.profile {
 		@include span-columns(3);

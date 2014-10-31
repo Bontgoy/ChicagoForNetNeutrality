@@ -65495,3 +65495,266 @@ Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 15:48:22 -0500
 
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 15:48:22 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (5.9ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (4.7ms)
+  Rendered welcome/_hero.html.erb (3.9ms)
+  Rendered welcome/_mission.html.erb (1.0ms)
+  [1m[35mInnovator Load (0.8ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (3.4ms)
+  Rendered welcome/_copps_quote.html.erb (2.7ms)
+  Rendered welcome/_singham_quote.html.erb (2.8ms)
+  Rendered welcome/_biss_quote.html.erb (3.3ms)
+  Rendered welcome/_mcgee_quote.html.erb (2.3ms)
+  Rendered welcome/_baker_quote.html.erb (2.5ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.7ms)
+  Rendered welcome/_contact.html.erb (2.3ms)
+  Rendered welcome/_footer.html.erb (3.2ms)
+  Rendered welcome/index.html.erb within layouts/application (65.5ms)
+Completed 200 OK in 183ms (Views: 167.8ms | ActiveRecord: 3.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 16:06:14 -0500
+
+
+Started GET "/welcome/7" for 127.0.0.1 at 2014-10-31 16:06:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mInnovator Load (0.5ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered welcome/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 11ms
+
+SyntaxError (/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...=( link_to "<%= image_tag "logo.png", class: "chi-image" );@...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...age_tag "logo.png", class: "chi-image" );@output_buffer.safe...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... "logo.png", class: "chi-image" );@output_buffer.safe_append...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected '>'
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:7: unterminated regexp meets end of file):
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/welcome/show.html.erb:6: syntax error, unexpected '>'
+  app/views/welcome/show.html.erb:7: unterminated regexp meets end of file
+
+
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.4ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (21.4ms)
+
+
+Started GET "/welcome/7" for 127.0.0.1 at 2014-10-31 16:06:17 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered welcome/show.html.erb within layouts/application (1.1ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...=( link_to "<%= image_tag "logo.png", class: "chi-image" );@...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+...age_tag "logo.png", class: "chi-image" );@output_buffer.safe...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+... "logo.png", class: "chi-image" );@output_buffer.safe_append...
+...                               ^
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected '>'
+/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:7: unterminated regexp meets end of file):
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting ')'
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tSTRING_BEG, expecting keyword_do or '{' or '('
+  app/views/welcome/show.html.erb:6: syntax error, unexpected '>'
+  app/views/welcome/show.html.erb:7: unterminated regexp meets end of file
+
+
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.7ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (15.6ms)
+
+
+Started GET "/welcome/7" for 127.0.0.1 at 2014-10-31 16:07:08 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 7]]
+  Rendered welcome/show.html.erb within layouts/application (0.6ms)
+Completed 500 Internal Server Error in 4ms
+
+SyntaxError (/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...: "chi-image", link_to root_url );@output_buffer.safe_append...
+...                               ^):
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.0ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (19.5ms)
+
+
+Started GET "/welcome/7" for 127.0.0.1 at 2014-10-31 16:07:09 -0500
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"7"}
+  [1m[35mInnovator Load (0.4ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 7]]
+  Rendered welcome/show.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 5ms
+
+SyntaxError (/Users/ty/Desktop/ChicagoForNetNeutrality/app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+...: "chi-image", link_to root_url );@output_buffer.safe_append...
+...                               ^):
+  app/views/welcome/show.html.erb:6: syntax error, unexpected tIDENTIFIER, expecting keyword_do or '{' or '('
+
+
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.8ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Users/ty/.rbenv/versions/2.1.2/lib/ruby/gems/2.1.0/gems/actionpack-4.1.5/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 16:38:51 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (3.7ms)
+  Rendered welcome/_hero.html.erb (3.0ms)
+  Rendered welcome/_mission.html.erb (0.6ms)
+  [1m[35mInnovator Load (0.6ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (2.7ms)
+  Rendered welcome/_copps_quote.html.erb (2.6ms)
+  Rendered welcome/_singham_quote.html.erb (2.7ms)
+  Rendered welcome/_biss_quote.html.erb (3.3ms)
+  Rendered welcome/_mcgee_quote.html.erb (5.9ms)
+  Rendered welcome/_baker_quote.html.erb (3.1ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.4ms)
+  Rendered welcome/_contact.html.erb (2.6ms)
+  Rendered welcome/_footer.html.erb (2.5ms)
+  Rendered welcome/index.html.erb within layouts/application (64.8ms)
+Completed 200 OK in 191ms (Views: 175.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 16:38:51 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 16:38:52 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-31 16:38:52 -0500

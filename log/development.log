@@ -62326,3 +62326,223 @@ Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 13:39:37 -0500
 
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 13:39:37 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 13:44:13 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (3.0ms)
+  Rendered welcome/_hero.html.erb (2.1ms)
+  Rendered welcome/_mission.html.erb (0.5ms)
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (2.8ms)
+  Rendered welcome/_copps_quote.html.erb (2.3ms)
+  Rendered welcome/_singham_quote.html.erb (2.3ms)
+  Rendered welcome/_biss_quote.html.erb (2.3ms)
+  Rendered welcome/_mcgee_quote.html.erb (2.5ms)
+  Rendered welcome/_baker_quote.html.erb (2.8ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.3ms)
+  Rendered welcome/_contact.html.erb (1.9ms)
+  Rendered welcome/_footer.html.erb (2.1ms)
+  Rendered welcome/index.html.erb within layouts/application (54.4ms)
+Completed 200 OK in 165ms (Views: 144.2ms | ActiveRecord: 8.3ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-31 13:44:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 13:44:53 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.2ms)
+  Rendered welcome/_hero.html.erb (0.3ms)
+  Rendered welcome/_mission.html.erb (0.3ms)
+  [1m[36mInnovator Load (0.3ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (0.4ms)
+  Rendered welcome/_copps_quote.html.erb (0.3ms)
+  Rendered welcome/_singham_quote.html.erb (0.7ms)
+  Rendered welcome/_biss_quote.html.erb (0.4ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.4ms)
+  Rendered welcome/_baker_quote.html.erb (0.4ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.3ms)
+  Rendered welcome/_contact.html.erb (0.3ms)
+  Rendered welcome/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (19.8ms)
+Completed 200 OK in 599ms (Views: 597.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-31 13:44:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-10-31 13:45:19 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (0.3ms)
+  Rendered welcome/_hero.html.erb (0.2ms)
+  Rendered welcome/_mission.html.erb (0.2ms)
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (0.4ms)
+  Rendered welcome/_copps_quote.html.erb (0.4ms)
+  Rendered welcome/_singham_quote.html.erb (0.4ms)
+  Rendered welcome/_biss_quote.html.erb (0.4ms)
+  Rendered welcome/_mcgee_quote.html.erb (0.3ms)
+  Rendered welcome/_baker_quote.html.erb (0.3ms)
+  Rendered welcome/_national_museum_quote.html.erb (0.3ms)
+  Rendered welcome/_contact.html.erb (0.2ms)
+  Rendered welcome/_footer.html.erb (0.2ms)
+  Rendered welcome/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 506ms (Views: 505.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/museum.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-10-31 13:45:20 -0500

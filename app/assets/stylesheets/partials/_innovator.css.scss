@@ -1,22 +1,33 @@
 .innovator {
 	@include outer-container;
+	$navigation-background: $dark-gray;
 	$pic-height: 200px;
 	$pic-width: 200px;
 	
 	.home-link {
 		@include span-columns(12);
-		background-color: #333333;
+		background-color: $navigation-background;
+		position: fixed;
 		color: white;
 		font-size: 1.5em;
 		font-weight: bold;
 		border-radius: 2px;
 		padding-left: 2em;
 		margin-bottom: 2em;
+		top: -5px;
+	}
+
+	.chi-image {
+		height: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 	}
 
 	.profile {
 		@include span-columns(12);
-		margin-bottom: 2em;		
+		margin-bottom: 2em;	
+		margin-top: 2em;	
 
 		.photo {
 			@include span-columns(5);

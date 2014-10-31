@@ -30,7 +30,7 @@ $(document).ready(function(){
   });
   $("a[href*=#contact]").click(function() {
     $('html, body').animate({
-        scrollTop: $(".contact").offset().top
+        scrollTop: $("a[name*=contact]").offset().top
     }, 2000);
     return false;
   });

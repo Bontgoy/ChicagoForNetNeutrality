@@ -35,6 +35,10 @@
       @include button(simple);
       font-size: $base-font-size;
       outline: none;
+
+      a {
+        color: white;
+      }
     }
 
     .hero-copy {

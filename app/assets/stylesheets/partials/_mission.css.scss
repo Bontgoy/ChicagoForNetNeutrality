@@ -1,14 +1,14 @@
 .intro-text {
   $intro-text-width: 60%;
-  /*$logo-height: 150px;*/
+  $logo-height: 150px;
 
-  /*margin-bottom: 5em;*/
+  margin-bottom: 5em;
   margin-top: 2em;
   text-align: center;
   
-  /*.mission-logo {
+  .mission-logo {
     height: $logo-height;
-  }*/
+  }
   
   h2 {
     font-family: $serif;

@@ -6,6 +6,9 @@
 	.home-link {
 		@include span-columns(12);
 		background-color: #333333;
+		color: white;
+		font-size: 1.5em;
+		font-weight: bold;
 		border-radius: 2px;
 		padding-left: 2em;
 		margin-bottom: 2em;
@@ -33,7 +36,8 @@
 			padding-right: 2em;
 
 	    p {
-	    	font-size: .75em;
+	    	font-size: 1em;
+	    	margin-bottom: 0;
 	    }
 		}
 	}

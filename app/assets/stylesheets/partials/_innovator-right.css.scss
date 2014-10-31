@@ -30,7 +30,7 @@
 	    text-align: center;
 
 	    p {
-	    	font-size: .75em;
+	    	font-size: 1em;
 	    	margin-bottom: 0;
 	    }
 		}
@@ -39,9 +39,10 @@
 	.statement {
 		@include span-columns(9);
 		float: right;
-		margin-top: 4em;
+		/*margin-top: 4em;*/
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.25em;
 	}
 
 	@media (max-width: 1024px) {
@@ -56,6 +57,7 @@
 		.profile {
 			@include span-columns(12);
 			position: static;
+			margin-bottom: 1em;
 		}
 
 		.statement {
@@ -64,6 +66,7 @@
 			padding-right: 1em;
 			padding-left: 1em;
 			margin-bottom: 1.5em;
+			font-size: 1em;
 		}
 	}
 }

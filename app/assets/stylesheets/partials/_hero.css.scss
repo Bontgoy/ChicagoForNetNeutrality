@@ -31,11 +31,11 @@
     text-align: center;
     color: $hero-color;
 
-/*    button {
-      @include button(simple, $base-background-color);
+    button {
+      @include button(simple);
       font-size: $base-font-size;
       outline: none;
-    }*/
+    }
 
     .hero-copy {
       text-align: center;
@@ -52,15 +52,22 @@
       p {
         font-family: $serif;
         margin: auto;
-        margin-bottom: 3em; 
+        margin-bottom: 1.5em; 
         font-weight: 200;
         line-height: 1.4em;
+        margin-top: 1em;
 
         @include media($large-screen) {
           font-size: 1.1em;
-          max-width: 40%;
+          max-width: 45%;
         }
       }
+
+      a {
+        color: white;
+        text-decoration: underline;
+      }   
     }
   }
 }
+

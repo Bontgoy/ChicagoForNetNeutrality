@@ -29,7 +29,7 @@
 		    text-align: center;
 
 		    p {
-		    	font-size: .75em;
+		    	font-size: 1em;
 		    	margin-bottom: 0;
 		    }
 			}
@@ -38,9 +38,10 @@
 	.statement {
 		@include span-columns(8);
 		position: absolute;
-		margin-top: 4em;
+		/*margin-top: 4em;*/
     margin-left: auto;
     margin-right: auto;
+    font-size: 1.25em;
 	}
 
 	@media (max-width: 1024px) {
@@ -57,11 +58,13 @@
 			@include shift(0);
 			position: static;
 			padding-top: 1em;
+			margin-bottom: 1em;
 		}
 
 		.statement {
 			@include span-columns(12);
 			position: static;
+			font-size: 1em;
 		}
 	}
 }

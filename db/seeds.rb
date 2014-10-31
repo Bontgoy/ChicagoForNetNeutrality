@@ -6,10 +6,4 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
-Innovator.create(last_name: 'wozniak')
-Innovator.create(last_name: 'copps')
-Innovator.create(last_name: 'singham')
-Innovator.create(last_name: 'biss')
-Innovator.create(last_name: 'mcgee')
-Innovator.create(last_name: 'baker')
-Innovator.create(last_name: 'national_museum')
+Innovator.create(last_name: 'tulbert')

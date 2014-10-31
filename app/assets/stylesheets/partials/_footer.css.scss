@@ -21,10 +21,13 @@
       }
 
       ul li {
+        
         display: list-item;
-
+        color: white;
         a {
+
           text-decoration: underline;
+          color: white;
         }
       }
     }
@@ -36,6 +39,11 @@
           text-align: right;
           margin-top: 0;
           margin-bottom: 0;
+          color: white;
+
+          a {
+            color: white;
+          }
         }
     }
     

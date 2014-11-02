@@ -67215,3 +67215,75 @@ Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-01 18:41:37 -0500
 
 
 Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-11-01 18:41:37 -0500
+  [1m[36m (132.0ms)[0m  [1mDROP DATABASE IF EXISTS "openInternet_development"[0m
+  [1m[35m (125.8ms)[0m  DROP DATABASE IF EXISTS "openInternet_test"
+  [1m[36m (393.2ms)[0m  [1mCREATE DATABASE "openInternet_development" ENCODING = 'unicode'[0m
+  [1m[35m (256.6ms)[0m  CREATE DATABASE "openInternet_test" ENCODING = 'unicode'
+  [1m[36mSQL (0.4ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (10.1ms)[0m  CREATE TABLE "innovators" ("id" serial primary key, "last_name" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (7.0ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (11.8ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.5ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (0.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141024193035')
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:45.228845"], ["last_name", "wozniak"], ["updated_at", "2014-11-02 23:28:45.228845"]]
+  [1m[35m (5.8ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:45.245874"], ["last_name", "copps"], ["updated_at", "2014-11-02 23:28:45.245874"]]
+  [1m[36m (5.7ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:45.253386"], ["last_name", "singham"], ["updated_at", "2014-11-02 23:28:45.253386"]]
+  [1m[35m (4.7ms)[0m  COMMIT
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:45.260380"], ["last_name", "biss"], ["updated_at", "2014-11-02 23:28:45.260380"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:45.262433"], ["last_name", "mcgee"], ["updated_at", "2014-11-02 23:28:45.262433"]]
+  [1m[35m (0.4ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:45.264445"], ["last_name", "baker"], ["updated_at", "2014-11-02 23:28:45.264445"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:45.265952"], ["last_name", "national_museum"], ["updated_at", "2014-11-02 23:28:45.265952"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:45.267232"], ["last_name", "tulbert"], ["updated_at", "2014-11-02 23:28:45.267232"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:45.268393"], ["last_name", "rose"], ["updated_at", "2014-11-02 23:28:45.268393"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:45.269502"], ["last_name", "grubbs"], ["updated_at", "2014-11-02 23:28:45.269502"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:50.787779"], ["last_name", "wozniak"], ["updated_at", "2014-11-02 23:28:50.787779"]]
+  [1m[35m (0.9ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:50.792706"], ["last_name", "copps"], ["updated_at", "2014-11-02 23:28:50.792706"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:50.794222"], ["last_name", "singham"], ["updated_at", "2014-11-02 23:28:50.794222"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:50.795410"], ["last_name", "biss"], ["updated_at", "2014-11-02 23:28:50.795410"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:50.796560"], ["last_name", "mcgee"], ["updated_at", "2014-11-02 23:28:50.796560"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:50.797704"], ["last_name", "baker"], ["updated_at", "2014-11-02 23:28:50.797704"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:50.798823"], ["last_name", "national_museum"], ["updated_at", "2014-11-02 23:28:50.798823"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:50.799914"], ["last_name", "tulbert"], ["updated_at", "2014-11-02 23:28:50.799914"]]
+  [1m[36m (0.4ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-02 23:28:50.801247"], ["last_name", "rose"], ["updated_at", "2014-11-02 23:28:50.801247"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-02 23:28:50.802534"], ["last_name", "grubbs"], ["updated_at", "2014-11-02 23:28:50.802534"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m

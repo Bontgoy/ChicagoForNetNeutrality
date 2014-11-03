@@ -1,24 +1,10 @@
 .contact {
 	@include outer-container;
-
-	.call-to-contact {
-		@include span-columns(7);
-		@include shift(2.5);
-
-		h5 {
-			color: black;
-			padding: 1em;
-	    margin-left: auto;
-	    margin-right: auto;
-	    text-align: center;
-	    margin-bottom: 1em;
-	  }
-	}
 	
 	.cause-logo {
 		@include span-columns(12);
-		margin-bottom: 2em;
-		margin-top: 2em;
+		margin-bottom: 5em;
+		margin-top: 5em;
 
 		.cause-pic {
 			display: block;

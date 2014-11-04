@@ -1,7 +1,9 @@
 <div class="profile">
 
 	<div class="photo">
-		<%= image_tag "singham-2.gif", class: "pic"%>
+		<%= link_to welcome_path(3) do %>
+			<%= image_tag "singham-2.gif", class: "pic"%>
+		<% end %>
 	</div>
 
 	<div class="titles">

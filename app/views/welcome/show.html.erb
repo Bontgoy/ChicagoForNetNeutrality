@@ -3,5 +3,7 @@
 		<%= link_to "Home", root_url, class: "home-link" %>
 	</div>
 	<%= render "#{@innovator.last_name}"%>
-	<%= image_tag "logo.png", class: "chi-image" %>
+	<%= link_to root_url do %>
+		<%= image_tag "logo.png", class: "chi-image" %>
+	<% end %>
 </div>

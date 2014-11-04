@@ -1,6 +1,10 @@
 <div class="profile">
 	<div class="photo">
-		<a name="innovators"><%= image_tag "wozniak.png", class: "pic", alt: "Steve Wozniak"%></a>
+		<a name="innovators">
+			<%= link_to welcome_path(1) do %>
+				<%= image_tag "wozniak.png", class: "pic", alt: "Steve Wozniak"%>
+			<% end %>
+		</a>
 	</div>
 
 	<div class="titles">

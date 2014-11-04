@@ -1,6 +1,8 @@
 <div class="profile">
 	<div class="photo">
-		<%= image_tag "doyle.png", class: "pic"%>
+		<%= link_to welcome_path(7) do %>
+			<%= image_tag "doyle.png", class: "pic"%>
+		<% end %>
 	</div>
 	
 	<div class="titles">

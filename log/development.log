@@ -71340,3 +71340,197 @@ Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-06 08:42:42 -0600
 
 
 Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-11-06 08:42:42 -0600
+  [1m[36m (137.6ms)[0m  [1mDROP DATABASE IF EXISTS "openInternet_development"[0m
+  [1m[35m (134.4ms)[0m  DROP DATABASE IF EXISTS "openInternet_test"
+  [1m[36m (415.9ms)[0m  [1mCREATE DATABASE "openInternet_development" ENCODING = 'unicode'[0m
+  [1m[35m (271.7ms)[0m  CREATE DATABASE "openInternet_test" ENCODING = 'unicode'
+  [1m[36mSQL (1.4ms)[0m  [1mCREATE EXTENSION IF NOT EXISTS "plpgsql"[0m
+  [1m[35m (12.8ms)[0m  CREATE TABLE "innovators" ("id" serial primary key, "last_name" character varying(255), "created_at" timestamp, "updated_at" timestamp) 
+  [1m[36m (12.5ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" character varying(255) NOT NULL) [0m
+  [1m[35m (6.2ms)[0m  CREATE UNIQUE INDEX  "unique_schema_migrations" ON "schema_migrations"  ("version")
+  [1m[36m (0.4ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (24.8ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141024193035')
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (6.4ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.835701"], ["last_name", "wozniak"], ["updated_at", "2014-11-07 14:15:29.835701"]]
+  [1m[35m (12.0ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.859771"], ["last_name", "copps"], ["updated_at", "2014-11-07 14:15:29.859771"]]
+  [1m[36m (5.1ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.866487"], ["last_name", "singham"], ["updated_at", "2014-11-07 14:15:29.866487"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.868064"], ["last_name", "biss"], ["updated_at", "2014-11-07 14:15:29.868064"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.869241"], ["last_name", "mcgee"], ["updated_at", "2014-11-07 14:15:29.869241"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.870549"], ["last_name", "baker"], ["updated_at", "2014-11-07 14:15:29.870549"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.871956"], ["last_name", "national_museum"], ["updated_at", "2014-11-07 14:15:29.871956"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.873105"], ["last_name", "tulbert"], ["updated_at", "2014-11-07 14:15:29.873105"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.874176"], ["last_name", "rose"], ["updated_at", "2014-11-07 14:15:29.874176"]]
+  [1m[35m (0.2ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.875234"], ["last_name", "grubbs"], ["updated_at", "2014-11-07 14:15:29.875234"]]
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.876295"], ["last_name", "hoover"], ["updated_at", "2014-11-07 14:15:29.876295"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.877714"], ["last_name", "yeary"], ["updated_at", "2014-11-07 14:15:29.877714"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.879407"], ["last_name", "howe"], ["updated_at", "2014-11-07 14:15:29.879407"]]
+  [1m[35m (0.5ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.881320"], ["last_name", "taylor"], ["updated_at", "2014-11-07 14:15:29.881320"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.882811"], ["last_name", "pasky"], ["updated_at", "2014-11-07 14:15:29.882811"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"  [["created_at", "2014-11-07 14:15:29.883959"], ["last_name", "kunesh"], ["updated_at", "2014-11-07 14:15:29.883959"]]
+  [1m[36m (0.3ms)[0m  [1mCOMMIT[0m
+  [1m[35m (0.1ms)[0m  BEGIN
+  [1m[36mSQL (0.1ms)[0m  [1mINSERT INTO "innovators" ("created_at", "last_name", "updated_at") VALUES ($1, $2, $3) RETURNING "id"[0m  [["created_at", "2014-11-07 14:15:29.885038"], ["last_name", "busch"], ["updated_at", "2014-11-07 14:15:29.885038"]]
+  [1m[35m (0.3ms)[0m  COMMIT
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (5.0ms)
+  Rendered welcome/_hero.html.erb (2.5ms)
+  Rendered welcome/_mission.html.erb (0.6ms)
+  [1m[35mInnovator Load (5.8ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (3.7ms)
+  Rendered welcome/_copps_quote.html.erb (2.9ms)
+  Rendered welcome/_singham_quote.html.erb (2.5ms)
+  Rendered welcome/_biss_quote.html.erb (3.6ms)
+  Rendered welcome/_mcgee_quote.html.erb (2.6ms)
+  Rendered welcome/_baker_quote.html.erb (3.0ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.8ms)
+  Rendered welcome/_tulbert_quote.html.erb (2.9ms)
+  Rendered welcome/_rose_quote.html.erb (2.4ms)
+  Rendered welcome/_grubbs_quote.html.erb (3.1ms)
+  Rendered welcome/_hoover_quote.html.erb (3.0ms)
+  Rendered welcome/_yeary_quote.html.erb (2.4ms)
+  Rendered welcome/_howe_quote.html.erb (2.4ms)
+  Rendered welcome/_taylor_quote.html.erb (2.6ms)
+  Rendered welcome/_pasky_quote.html.erb (2.6ms)
+  Rendered welcome/_kunesh_quote.html.erb (2.4ms)
+  Rendered welcome/_busch_quote.html.erb (5.9ms)
+  Rendered welcome/_contact.html.erb (2.4ms)
+  Rendered welcome/_footer.html.erb (2.4ms)
+  Rendered welcome/index.html.erb within layouts/application (127.3ms)
+Completed 200 OK in 238ms (Views: 216.1ms | ActiveRecord: 7.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-11-07 08:15:46 -0600
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/doyle.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/tulbert.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/rose.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/grubbs.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/hoover.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/yeary.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/howe.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/taylor.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/pasky.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/kunesh.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/busch.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-11-07 08:15:47 -0600
+
+
+Started GET "/welcome/17" for 127.0.0.1 at 2014-11-07 08:15:53 -0600
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[36mInnovator Load (0.2ms)[0m  [1mSELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1[0m  [["id", 17]]
+  Rendered welcome/_busch.html.erb (0.7ms)
+  Rendered welcome/show.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 51ms (Views: 47.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/welcome/17" for 127.0.0.1 at 2014-11-07 08:15:56 -0600
+Processing by WelcomeController#show as HTML
+  Parameters: {"id"=>"17"}
+  [1m[35mInnovator Load (0.3ms)[0m  SELECT  "innovators".* FROM "innovators"  WHERE "innovators"."id" = $1 LIMIT 1  [["id", 17]]
+  Rendered welcome/_busch.html.erb (0.4ms)
+  Rendered welcome/show.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.3ms)

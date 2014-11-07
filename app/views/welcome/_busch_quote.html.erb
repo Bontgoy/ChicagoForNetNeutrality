@@ -1,0 +1,18 @@
+<div class="profile">
+	<div class="photo">
+		<%= link_to welcome_path(17) do %>
+			<%= image_tag "busch.png", class: "pic", alt: "Mike Busch" %>
+		<% end %>
+	</div>
+
+	<div class="titles">
+		<h4>Mike Busche</h4>
+		<p>Dev Bootcamp Chicago - Instructor</p>
+	</div>
+</div>
+
+<div class="statement">
+	<p>
+		"Net Neutrality is a cornerstone of today's internet. We must make it clear to our nations' leaders that net neutrality is the best mechanism we have to protect the interests of small business, independent journalism, and accessible content...<%= link_to "Read More", welcome_path(17)%>
+	</p>
+</div>

@@ -31,7 +31,7 @@
     text-align: center;
     color: $hero-color;
 
-    button {
+    .button {
       @include button(simple);
       font-size: $base-font-size;
       outline: none;

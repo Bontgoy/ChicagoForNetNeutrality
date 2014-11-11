@@ -74158,3 +74158,129 @@ Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-11-11 11:40:23 -0600
 
 
 Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-11 11:40:23 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (2.7ms)
+  Rendered welcome/_hero.html.erb (1.7ms)
+  Rendered welcome/_mission.html.erb (0.5ms)
+  [1m[35mInnovator Load (0.5ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (2.1ms)
+  Rendered welcome/_copps_quote.html.erb (2.1ms)
+  Rendered welcome/_singham_quote.html.erb (2.7ms)
+  Rendered welcome/_biss_quote.html.erb (1.9ms)
+  Rendered welcome/_mcgee_quote.html.erb (1.8ms)
+  Rendered welcome/_baker_quote.html.erb (1.9ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.0ms)
+  Rendered welcome/_tulbert_quote.html.erb (1.9ms)
+  Rendered welcome/_rose_quote.html.erb (1.8ms)
+  Rendered welcome/_grubbs_quote.html.erb (2.0ms)
+  Rendered welcome/_hoover_quote.html.erb (1.7ms)
+  Rendered welcome/_yeary_quote.html.erb (2.8ms)
+  Rendered welcome/_howe_quote.html.erb (1.9ms)
+  Rendered welcome/_taylor_quote.html.erb (4.2ms)
+  Rendered welcome/_pasky_quote.html.erb (1.8ms)
+  Rendered welcome/_kunesh_quote.html.erb (1.6ms)
+  Rendered welcome/_busch_quote.html.erb (2.4ms)
+  Rendered welcome/_hightower_quote.html.erb (1.9ms)
+  Rendered welcome/_wrigley_quote.html.erb (1.5ms)
+  Rendered welcome/_siska_quote.html.erb (1.8ms)
+  Rendered welcome/_contact.html.erb (1.6ms)
+  Rendered welcome/_footer.html.erb (1.5ms)
+  Rendered welcome/index.html.erb within layouts/application (79.6ms)
+Completed 200 OK in 182ms (Views: 169.5ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-11 11:42:18 -0600
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/doyle.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/tulbert.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/rose.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/grubbs.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/hoover.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/yeary.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/howe.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/taylor.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/pasky.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/kunesh.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/busch.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/wrigley.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/hightower.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/siska.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2014-11-11 11:42:19 -0600

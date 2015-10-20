@@ -84059,3 +84059,312 @@ Processing by WelcomeController#show as HTML
   Rendered welcome/_rubin.html.erb (0.2ms)
   Rendered welcome/show.html.erb within layouts/application (1.4ms)
 Completed 200 OK in 43ms (Views: 42.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-19 20:44:12 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (24.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (4.5ms)
+  Rendered welcome/_hero.html.erb (3.5ms)
+  Rendered welcome/_mission.html.erb (0.8ms)
+  [1m[35mInnovator Load (13.5ms)[0m  SELECT "innovators".* FROM "innovators"
+  Rendered welcome/_wozniak_quote.html.erb (4.9ms)
+  Rendered welcome/_copps_quote.html.erb (4.3ms)
+  Rendered welcome/_singham_quote.html.erb (3.2ms)
+  Rendered welcome/_biss_quote.html.erb (4.1ms)
+  Rendered welcome/_katris_quote.html.erb (4.1ms)
+  Rendered welcome/_moog_quote.html.erb (4.7ms)
+  Rendered welcome/_reed_quote.html.erb (4.3ms)
+  Rendered welcome/_mcgee_quote.html.erb (3.6ms)
+  Rendered welcome/_baker_quote.html.erb (4.0ms)
+  Rendered welcome/_national_museum_quote.html.erb (4.5ms)
+  Rendered welcome/_tulbert_quote.html.erb (4.4ms)
+  Rendered welcome/_rose_quote.html.erb (4.1ms)
+  Rendered welcome/_grubbs_quote.html.erb (4.8ms)
+  Rendered welcome/_hoover_quote.html.erb (4.5ms)
+  Rendered welcome/_yeary_quote.html.erb (4.0ms)
+  Rendered welcome/_howe_quote.html.erb (3.8ms)
+  Rendered welcome/_taylor_quote.html.erb (5.5ms)
+  Rendered welcome/_kunesh_quote.html.erb (3.8ms)
+  Rendered welcome/_busch_quote.html.erb (4.2ms)
+  Rendered welcome/_hightower_quote.html.erb (4.9ms)
+  Rendered welcome/_wrigley_quote.html.erb (4.4ms)
+  Rendered welcome/_siska_quote.html.erb (5.1ms)
+  Rendered welcome/_benton_quote.html.erb (4.4ms)
+  Rendered welcome/_exline_quote.html.erb (4.5ms)
+  Rendered welcome/_stringer_quote.html.erb (3.7ms)
+  Rendered welcome/_rubin_quote.html.erb (5.0ms)
+  Rendered welcome/_obama_video.html.erb (0.4ms)
+  Rendered welcome/_obama_quote.html.erb (7.0ms)
+  Rendered welcome/_contact.html.erb (3.7ms)
+  Rendered welcome/_footer.html.erb (5.2ms)
+  Rendered welcome/index.html.erb within layouts/application (205.0ms)
+Completed 200 OK in 330ms (Views: 303.0ms | ActiveRecord: 15.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/katris.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/moog.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/reed.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/doyle.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/rose.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/tulbert.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/grubbs.png" for 127.0.0.1 at 2015-10-19 20:44:13 -0500
+
+
+Started GET "/assets/hoover.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/yeary.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/taylor.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/howe.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/busch.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/kunesh.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/hightower.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/wrigley.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/siska.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/benton.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/exline.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/rubin.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/stringer.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/obama.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2015-10-19 20:44:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+Processing by WelcomeController#index as HTML
+  Rendered welcome/_header.html.erb (1.4ms)
+  Rendered welcome/_hero.html.erb (1.6ms)
+  Rendered welcome/_mission.html.erb (0.4ms)
+  [1m[36mInnovator Load (0.4ms)[0m  [1mSELECT "innovators".* FROM "innovators"[0m
+  Rendered welcome/_wozniak_quote.html.erb (1.6ms)
+  Rendered welcome/_copps_quote.html.erb (1.5ms)
+  Rendered welcome/_singham_quote.html.erb (1.0ms)
+  Rendered welcome/_biss_quote.html.erb (1.3ms)
+  Rendered welcome/_katris_quote.html.erb (2.0ms)
+  Rendered welcome/_moog_quote.html.erb (2.0ms)
+  Rendered welcome/_reed_quote.html.erb (3.1ms)
+  Rendered welcome/_mcgee_quote.html.erb (1.4ms)
+  Rendered welcome/_baker_quote.html.erb (1.9ms)
+  Rendered welcome/_national_museum_quote.html.erb (2.5ms)
+  Rendered welcome/_tulbert_quote.html.erb (2.5ms)
+  Rendered welcome/_rose_quote.html.erb (1.4ms)
+  Rendered welcome/_grubbs_quote.html.erb (1.8ms)
+  Rendered welcome/_hoover_quote.html.erb (1.8ms)
+  Rendered welcome/_yeary_quote.html.erb (1.3ms)
+  Rendered welcome/_howe_quote.html.erb (1.0ms)
+  Rendered welcome/_taylor_quote.html.erb (2.2ms)
+  Rendered welcome/_kunesh_quote.html.erb (1.8ms)
+  Rendered welcome/_busch_quote.html.erb (2.1ms)
+  Rendered welcome/_hightower_quote.html.erb (2.1ms)
+  Rendered welcome/_wrigley_quote.html.erb (1.7ms)
+  Rendered welcome/_siska_quote.html.erb (2.2ms)
+  Rendered welcome/_benton_quote.html.erb (1.6ms)
+  Rendered welcome/_exline_quote.html.erb (1.5ms)
+  Rendered welcome/_stringer_quote.html.erb (1.5ms)
+  Rendered welcome/_rubin_quote.html.erb (2.0ms)
+  Rendered welcome/_obama_video.html.erb (0.0ms)
+  Rendered welcome/_obama_quote.html.erb (2.8ms)
+  Rendered welcome/_contact.html.erb (1.1ms)
+  Rendered welcome/_footer.html.erb (3.1ms)
+  Rendered welcome/index.html.erb within layouts/application (96.5ms)
+Completed 200 OK in 154ms (Views: 151.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/welcome.js?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/logo-side.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/Common-Cause-logo.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/biss.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/copps-2.gif" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/wozniak.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/singham-2.gif" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/katris.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/moog.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/reed.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/mcgee.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/baker-2.gif" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/doyle.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/tulbert.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/rose.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/hoover.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/grubbs.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/yeary.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/rounded-skyline-op.jpg" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/howe.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/taylor.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/kunesh.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/cclogo.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/busch.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/hightower.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/wrigley.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/benton.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/exline.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/siska.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/stringer.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/rubin.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
+
+
+Started GET "/assets/obama.png" for 127.0.0.1 at 2015-10-19 20:48:03 -0500
